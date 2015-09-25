@@ -30,6 +30,7 @@ def set_properties(project):
   project.set_property('flake8_verbose_output', True)
 
   project.set_property('coverage_break_build', False)
+  project.set_property('coverage_fork', False)
 
 
   project.get_property('distutils_commands').append('bdist_wheel')
